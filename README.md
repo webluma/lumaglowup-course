@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GlowUp Course - Landing Page Demo
 
-## Getting Started
+Uma landing page demo-live para o **GlowUp Course**, um curso online de marketing digital. Este projeto foi desenvolvido como demonstração de portfólio para um website que vende websites, mostrando habilidades em desenvolvimento frontend moderno e design de alta conversão.
 
-First, run the development server:
+## 🚀 Sobre o Projeto
+
+Esta landing page foi criada para demonstrar:
+
+- **Design de alta conversão** com CTAs otimizados
+- **Componentes React modulares** e reutilizáveis
+- **Animações suaves** e efeitos visuais
+- **Responsividade** para todos os dispositivos
+- **UX/UI profissional** com hierarquia visual clara
+
+## ✨ Características
+
+- 🎯 **Hero Section** com headline forte e estatísticas
+- 📹 **Seção de Vídeo** com mockup animado
+- 💎 **Benefícios** com ícones e cards interativos
+- ⭐ **Depoimentos** e avaliações de clientes
+- 🚀 **CTA Section** com oferta especial e efeito glow
+- ❓ **FAQ** completo para esclarecer dúvidas
+- 📱 **Barra fixa** de inscrição ao rolar a página
+
+## 🛠️ Tecnologias
+
+- **Next.js 15** com App Router
+- **React 19** com TypeScript
+- **Tailwind CSS 4** para estilização
+- **Componentes modulares** para melhor organização
+- **Animações CSS** personalizadas
+
+## 🚀 Como Executar
 
 ```bash
+# Instalar dependências
+npm install
+
+# Executar em modo desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build para produção
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── page.tsx          # Página principal
+│   ├── layout.tsx        # Layout raiz
+│   └── globals.css       # Estilos globais
+└── components/
+    ├── StickyBar.tsx     # Barra fixa de navegação
+    ├── HeroSection.tsx   # Seção principal
+    ├── VideoSection.tsx  # Seção de vídeo
+    ├── BenefitsSection.tsx # Seção de benefícios
+    ├── TestimonialsSection.tsx # Depoimentos
+    ├── CTASection.tsx    # Call-to-action
+    ├── FAQSection.tsx    # Perguntas frequentes
+    └── Footer.tsx        # Rodapé
+```
 
-## Learn More
+## 🎨 Design Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Gradientes vibrantes** (roxo, azul, rosa)
+- **Efeito glow** nos botões principais
+- **Animações fade-in** nos elementos
+- **Hover effects** interativos
+- **Tipografia moderna** com Geist Sans
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💼 Propósito
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto serve como **demo-live** para demonstrar capacidades de desenvolvimento web, sendo usado em um website que vende websites para mostrar qualidade e profissionalismo aos clientes potenciais.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Desenvolvido com ❤️ para demonstrar habilidades em desenvolvimento frontend moderno**
